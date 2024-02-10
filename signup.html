@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Halaman Sign Up</title>
+  </head>
+  <body>
+    <div class="flex flex-nowrap w-full h-auto md:mx-auto">
+      <div class="flex-auto overflow-hidden">
+        <!-- img -->
+        <img src="asset/img/daun.jpg" alt="daun" class="w-full h-full" />
+      </div>
+      <div
+        class="bg-gradient-to-l from-lime-300 to-lime-200 flex-auto w-full h-auto"
+      >
+        <div
+          class="text-center font-medium text-4xl md:mx-auto subpixel-antialiased mt-12 container mx-auto"
+        >
+          Hai, Welcome! Let's create your account here
+        </div>
+        <div
+          class="flex min-h-auto flex-col overflow-hidden bg-gray-50 mx-40 my-8 text-center rounded-lg shadow-lg backdrop-blur-sm py-5"
+        >
+          <div
+            class="mt-2 flex justify-start px-10 font-mono text-left container mx-auto"
+          >
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.
+          </div>
+          <!-- form of signup -->
+          <form class="container mx-auto">
+            <div class="px-40 mt-3">
+              <div class="text-left font-mono py-1">Username</div>
+              <div
+                class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-gray-300 sm:max-w-md"
+              >
+                <input
+                  type="text"
+                  name="username"
+                  id="username"
+                  autocomplete="username"
+                  class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
+                  placeholder="Sylbila"
+                />
+              </div>
+            </div>
+            <div class="px-40 mt-2">
+              <div class="text-left font-mono py-1">Phone Number</div>
+
+              <div
+                class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-gray-300 sm:max-w-md"
+              >
+                <span
+                  class="flex select-none items-center pl-3 text-gray-500 sm:text-sm py-2 px-2"
+                  >+62
+                </span>
+                <input
+                  type="number"
+                  name="telpon"
+                  id="telpon"
+                  autocomplete="telpon"
+                  class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
+                />
+              </div>
+            </div>
+            <div class="px-40 mt-2">
+              <div class="text-left font-mono py-1">Password</div>
+              <div
+                class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-gray-300 sm:max-w-md"
+              >
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  autocomplete="new-password"
+                  class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
+                  placeholder="Password"
+                />
+              </div>
+            </div>
+            <div class="px-40 mt-2">
+              <div class="text-left font-mono py-1">Repeat Password</div>
+              <div
+                class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-gray-300 sm:max-w-md"
+              >
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  autocomplete="password"
+                  class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
+                  placeholder="Repeat Password"
+                />
+              </div>
+            </div>
+            <div class="py-3 ml-48">
+              <a href="dasbor.html">
+                <button
+                  type="submit"
+                  class="flex w-52 justify-center rounded-full bg-lime-600 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-lime-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 transition duration-500 ease-in-out"
+                >
+                  Sign Up Now
+                </button>
+              </a>
+            </div>
+          </form>
+          <!-- footer -->
+          <div class="text-center font-light text-slate-400 pb-4">
+            Or you can join with:
+          </div>
+          <div
+            class="justify-center grid grid-cols-3 gap-3 px-56 container mx-auto"
+          >
+            <div
+              class="border border-slate-300 rounded-full overflow-hidden ring-1"
+            >
+              <img
+                src="asset/img/google.jpg"
+                alt="google"
+                class="w-full h-auto"
+              />
+            </div>
+            <div
+              class="border border-slate-300 rounded-full overflow-hidden ring-1"
+            >
+              <img src="asset/img/WA.jpg" alt="wa" class="" />
+            </div>
+            <div
+              class="border border-slate-300 rounded-full overflow-hidden ring-1"
+            >
+              <img src="asset/img/FB.jpg" alt="FB" class="" />
+            </div>
+          </div>
+          <div
+            class="text-center text-sm text-gray-500 font-sans font-light pt-2"
+          >
+            @Chuaksss_aw
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

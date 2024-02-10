@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="grid grid-cols-2 gap-0 w-full h-screen md:mx-auto">
+      <!-- signin -->
+      <div class="flex justify-center container mx-auto">
+        <div class="text-center font-bold font-sans text-4xl pt-36 md:mx-auto">
+          Sign in
+          <div class="justify-center grid grid-cols-3 gap-3 px-72 py-6">
+            <div
+              class="border border-slate-300 rounded-lg overflow-hidden ring-2 hover:ring-gray-600"
+            >
+              <img
+                src="asset/img/google.jpg"
+                alt="google"
+                class="w-full h-auto"
+              />
+            </div>
+            <div
+              class="border border-slate-300 rounded-lg overflow-hidden ring-2 hover:ring-gray-600"
+            >
+              <img
+                src="asset/img/WA.jpg"
+                alt="whatsapp"
+                class="w-full h-auto"
+              />
+            </div>
+            <div
+              class="border border-slate-300 rounded-lg overflow-hidden ring-2 hover:ring-gray-600"
+            >
+              <img src="asset/img/FB.jpg" alt="fb" class="w-full h-auto" />
+            </div>
+          </div>
+          <div class="text-center font-sans font-light text-sm">
+            atau gunakan akun anda
+          </div>
+          <form>
+            <div class="mt-7">
+              <div class="justify-center">
+                <div class="mx-52">
+                  <div
+                    class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-gray-300 sm:max-w-md"
+                  >
+                    <input
+                      type="text"
+                      name="username"
+                      id="username"
+                      autocomplete="username"
+                      class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
+                      placeholder="SylbilaNajla"
+                    />
+                    <span
+                      class="flex select-none items-center pl-3 text-gray-500 sm:text-sm py-2 px-2"
+                      >@gmail.com</span
+                    >
+                  </div>
+                </div>
+                <div>
+                  <div class="flex justify-end px-52 mt-2">
+                    <div class="text-sm">
+                      <a
+                        href="#"
+                        class="font-semibold text-green-600 hover:text-gray-600"
+                        >Forgot password?</a
+                      >
+                    </div>
+                  </div>
+                  <div class="mt-2 pl-52">
+                    <input
+                      id="password"
+                      name="password"
+                      type="password"
+                      autocomplete="current-password"
+                      required
+                      class="block rounded-md border-0 py-1.5 pl-1 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 w-72"
+                      placeholder="Password"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="px-52 pt-3">
+                <a href="#">
+                  <button
+                    type="submit"
+                    class="flex w-72 justify-center rounded-full bg-green-600 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 transition duration-500 ease-in-out"
+                  >
+                    Sign in
+                  </button>
+                </a>
+              </div>
+              <div
+                class="text-center text-sm text-gray-500 font-sans font-light pt-2"
+              >
+                @Chuaksss_aw
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- sign up -->
+      <div
+        class="flex justify-center bg-gradient-to-tr from-green-600 to-green-400 container mx-auto"
+      >
+        <div class="text-white text-center font-bold text-4xl pt-52 md:mx-auto">
+          Annyeong Yorobun!
+          <h3 class="text-xl font-light pt-2 md:mx-auto container mx-auto">
+            Segera daftarkan diri anda dan gunakan layanan kami segera
+          </h3>
+          <div class="px-52 pt-5">
+            <a href="signup.html">
+              <button
+                type="submit"
+                class="flex w-72 justify-center rounded-full bg-green-500 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-green-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600 ring-2 ring-slate-300 transition duration-500 ease-in-out"
+              >
+                Sign Up
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
